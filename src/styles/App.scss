@@ -12,8 +12,8 @@
 }
 
 .page__logo{
-    width: 120px;
-    height: 140px;
+    width: 140px;
+    height: 160px;
     margin-top: 20px;
     display: flex;
     justify-content:space-between;
@@ -40,7 +40,6 @@
     list-style: none;
     text-decoration: none;
     cursor: pointer;
-    height: 0px;
     font-family: 'Playfair Display', serif;
     
 
@@ -63,21 +62,48 @@
 
 .page__main{
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:baseline;
 
     &__name {
         font-family: 'Fredericka the Great', cursive;
-        font-weight: lighter;
+        font-weight:100;
+        font-size:x-large;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 70px;
         color: rgb(0, 0, 0);
+        text-shadow: 1px 0px 1px;
     }
+
+   &__photo{
+    height: 240px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px;
+    
+
+   }
 }
 
 .page__footer{
+    background-color: rgb(182, 154, 129);
     display: flex;
-    padding: 10px;
-    border: 2px solid green;
+    padding: 30px;
     height: 30px;
+
+    &__small{
+        margin-top: 20px;
+        margin-left: -20px;
+        padding: 5px;
+    }
+
+    &__img{
+        width: 40px;
+        height: 40px;
+        margin-left: 423px;
+    }
 }

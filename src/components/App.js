@@ -4,7 +4,7 @@
 // - Nuestros
 // - Sass
 import '../styles/App.scss';
-import headerImg from '../images/header.png';
+
 // - Imágenes
 
 /* SECCIÓN DEL COMPONENTE */
@@ -22,7 +22,7 @@ function App() {
   return ( 
     <div className="App">
       <header className="header">
-      <img className="image-header" src={headerImg} alt="banner"/>
+   
       </header>
     </div>
   )

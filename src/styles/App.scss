@@ -1,16 +1,83 @@
 
-// font-family: 'Bitter', serif;
-// font-family: 'Homemade Apple', cursive;
+// font-family: 'Mr Dafoe', cursive;
+// font-family: 'Rock Salt', cursive;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Fredericka the Great', cursive;
 
-
-.header{
-    
+.page{
+    background-color: bisque;
+    margin:0;
     display: flex;
-    margin: 0;
+    flex-direction: column;
+}
+
+.page__logo{
+    width: 120px;
+    height: 140px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: first baseline;
+}
+
+.page__header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
     
 }
-.image-header{
 
-    width: 100vw;
-    height: 50vh;
+.header__li{
+    height: 30px;
+}
+
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    height: 0px;
+    font-family: 'Playfair Display', serif;
+    
+
+    &_li{
+        display: flex;
+         justify-content: space-between;
+         color: black;
+         background-color: bisque;
+         padding: 10px;
+         text-decoration: none;
+        
+    }
+}
+
+.header__nav_li:hover {
+    background-color: rgb(182, 154, 129);
+    font-size: large;
+    font-weight: bold;
+}
+
+.page__main{
+    height: 80vh;
+
+    &__name {
+        font-family: 'Fredericka the Great', cursive;
+        font-weight: lighter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        color: rgb(0, 0, 0);
+    }
+}
+
+.page__footer{
+    display: flex;
+    padding: 10px;
+    border: 2px solid green;
+    height: 30px;
 }

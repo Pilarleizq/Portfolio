@@ -7,6 +7,8 @@ import '../styles/App.scss';
 
 // - Imágenes
 import logo from '../images/pleizq.png'
+import photo from '../images/foto.jpeg'
+import house from '../images/casa.png'
 // import foto from '../images/foto.jpeg';
 // import footer from '../images/stay-at-home.png'
 
@@ -16,21 +18,11 @@ import logo from '../images/pleizq.png'
 //Míos 
 
 
-/* SECCIÓN DEL COMPONENTE */
 function App() {
-  /* VARIABLES ESTADO (DATOS) */
-
-  /* EFECTOS (código cuando carga la página) */
-
-  /* FUNCIONES HANDLER */
-
-  /* FUNCIONES Y VARIABLES AUXILIARES PARA PINTAR EL HTML */
-
-  /* HTML */
 
   return ( 
   <>
-<header classNameName="page__header">
+<header className="page__header">
         <img className="page__logo" src={logo} alt="logo"/>
 
         <ul className="header__nav">
@@ -44,7 +36,7 @@ function App() {
 
     <main className="page__main">
       <h1 className="page__main__name">Pilar Leiva Izquierdo</h1>
-       <img className="page__main__photo" src="../src/images/foto.jpeg" alt="foto personal"/>
+       <img className="page__main__photo" src={photo} alt="foto personal"/>
       <section className="section_1">
           <article className="section__projects">Proyectos</article>
             <div className="projects_div">
@@ -75,15 +67,13 @@ function App() {
         
     <footer className="page__footer">
       <small className="page__footer__small">
+      Pilar Leiva Izquierdo | Web developer
         &copy; 2023
       </small>
-      <img className="page__footer__img" src="../src/images/stay-at-home.png" alt="icono casa"/>
+      <img className="page__footer__img" src={house} alt="icono casa"/>
     </footer>
 </>
 );
 }
 
-/* PROP-TYPES */
-
-/* EXPORT DEL COMPONENTE */
 export default App;

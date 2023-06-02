@@ -3,33 +3,35 @@
 // font-family: 'Rock Salt', cursive;
 // font-family: 'Playfair Display', serif;
 // font-family: 'Fredericka the Great', cursive;
-
+// font-family: 'Yeseva One', cursive;
 .page{
-    background-color: bisque;
+    background-color: rgb(223, 214, 204);
     margin:0;
     display: flex;
     flex-direction: column;
 }
 
 .page__logo{
+    margin-top:10px;
     width: 140px;
     height: 160px;
-    margin: 20px;
-    margin-left: 225px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .page__header{
     display: flex;
-    justify-content:space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 100%;
     
 }
 
 .header__li{
     height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+  
 }
 
 
@@ -43,47 +45,50 @@
     cursor: pointer;
     font-family: 'Playfair Display', serif;
     color: black;
-    background-color: bisque;
-    padding: 10px;
-    text-decoration: none;
-    
-
-    // &_li{
-    //     display: flex;
-    //      justify-content: space-between;
-    //      color: black;
-    //      background-color: bisque;
-    //      padding: 10px;
-    //      text-decoration: none;
-        
+    background-color:  rgb(223, 214, 204);
+    text-decoration: none;  
     }
 
 
 .header__li:hover {
-    background-color: rgb(182, 154, 129);
+    color: rgb(56, 38, 64);
     font-size: large;
     font-weight: bold;
-    padding: 10px;
+    border: solid 1px rgb(105, 71, 105);
+    border-radius: 80%;
 }
 
 .page__main{
-    height: 200vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:baseline;
+    justify-content: center;
 
     &__name {
         font-family: 'Fredericka the Great', cursive;
-        font-weight:100;
-        font-size:x-large;
+        font-weight:400;
+        font-size:xx-large;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 70px;
         color: rgb(0, 0, 0);
         text-shadow: 1px 0px 1px;
+        animation-duration: 2s;
+        animation-name: namePilar;
+        animation-fill-mode: forwards;
+        font-family: 'Yeseva One', cursive;
     }
+
+    @keyframes namePilar {
+        from {
+            margin-top: 80%;
+        }
+        to{
+            margin-top: 0%;
+            }
+        }
 
    &__photo{
     height: 240px;
@@ -91,6 +96,12 @@
     border-radius: 50%;
     box-shadow: 0px 10px 20px;
    }
+
+}
+
+.page__main__photo:hover {
+    box-shadow: 0px 0px 15px 15px #c4b5aa;
+    -webkit-box-shadow: 1px 1px 5px 6px #6d566c;
 }
 
 .section_1, .section_2 {

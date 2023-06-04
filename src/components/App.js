@@ -33,19 +33,19 @@ function App() {
         <img className="page__logo" src={logo} alt="logo"/>
 
         <ul className="header__nav">
-          <li className="header__li">Sobre mí</li>
-          <li className="header__li">Proyectos</li>
-          <li className="header__li">Cursos</li>
-          <li className="header__li">Otros</li>
-          <li className="header__li">Contacto</li>
+          <li className="header__li"><a href="./App.js#nombre">Sobre mí</a></li>
+          <li className="header__li"><a href="./App.js#proyectos">Proyectos</a></li>
+          <li className="header__li"><a href="./app.js#cursos">Cursos</a></li>
+          <li className="header__li"><a href="./App.js#rrss">RRSS</a></li>
+          <li className="header__li"><a href="./App.js#contacto">Contacto</a></li>
         </ul>
       </header>
 
     <main className="page__main">
-      <h1 className="page__main__name">Pilar Leiva Izquierdo</h1>
-       <img className="page__main__photo" src={photo} alt="foto personal"/>
+      <h1 id="nombre" className="page__main__name">Pilar Leiva Izquierdo</h1>
+       <img id="foto" className="page__main__photo" src={photo} alt="foto personal"/>
       <section className="section_1">
-          <article className="section__projects">Proyectos</article>
+          <article className="section__projects" id="proyectos">Proyectos</article>
             <div className="projects_div">
               <article>
               <img className="projects_div_each" src={desarrollalobas} alt="proyecto"></img>
@@ -69,17 +69,39 @@ function App() {
               <img className="projects_div_each" src={cocktails} alt="proyecto"/>
               </article>
             </div>
-
+      </section>
+      <section className="section_cursos">
+      <article className="cursos" id="cursos">Cursos</article>
+              <div className="cursos_div">
+                <p>
+                  Programación web | Adalab 
+                </p>
+                <p>
+                  React.js | Platzi
+                </p>
+                <p>
+                  Curso Avanzado de Pronunciación en Inglés | Platzi
+                </p>
+                <p>
+                  Programación web | Adalab 
+                </p>
+                <p>
+                  Introducción al Desarrollo Web Responsive con HTML y CSS | Domestika 
+                </p>
+                <p>
+                  Introducción a la programación en JavaScript | Domestika
+                </p>
+              </div>
       </section>
       <section className="section_2">
-          <article className="section__rrss">Redes Sociales</article>
+          <article className="section__rrss" id="rrss">Redes Sociales</article>
           <div className="rrss_div">
             <img className="rrss_div_each" src={instagram} alt="logo-instagram"/>
             <img className="rrss_div_each" src={linkedin} alt="logo-linkedin"></img>
             <img className="rrss_div_each" src={github} alt="logo-github"></img>
           </div>
 
-          <article className="section__contact">Contacto</article>
+          <article className="section__contact" id="contacto">Contacto</article>
           <div className="contact_div">
             <article className="contact_div_article">
             <img className="contact_icon" src={email} alt="icono-email"/>

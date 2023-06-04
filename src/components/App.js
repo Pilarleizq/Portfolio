@@ -47,15 +47,15 @@ function App() {
         <img id="foto" className="page__main__photo" src={photo} alt="foto personal"/>
         </a>
         <p className='texto'>
-          Mi relato profesional consta de pequeñas pinceladas de sectores diferente<br></br>
-          que quizá pueden relacionarse entre ellos. Estudié Marketing, y tras la pandemia<br></br>
-         empecé a trabajar en comercio, donde aprendí a trabajar de cara al público  y el funcionamiento <br></br>
-         de un equipo de trabajo, además de las tareas de cada departamento. <br></br>
+          Mi relato profesional consta de pequeñas pinceladas de sectores diferentes<br></br>
+          que, quizá, pueden relacionarse entre ellos. Estudié Marketing y, tras la pandemia,<br></br>
+         empecé a trabajar en comercio, donde comencé a desarrollar mis capacidades de cara al público <br></br>
+         y aprendí el funcionamiento de un equipo de trabajo, además de las tareas de cada departamento. <br></br>
          <br></br>
         Tomé la decisión de cambiar drásticamente de sector para buscar oportunidades diferentes <br></br>
-           y aprender sobre un sector que está en constante desarrollo. Empecé con mucho miedo  <br></br>
-           y actualmente aún me acompaña, pero a ese miedo se unen las ganas de aprender <br></br>
-         mucho más y experimentar lo que es nadar por este sector tan profundo.</p>
+           y aprender sobre un área que está en constante desarrollo. Empecé con mucho miedo  <br></br>
+           y, actualmente, este aún me acompaña. Pero a ese miedo se le unen las ganas de aprender <br></br>
+         mucho más y de experimentar lo que es nadar por este sector tan profundo.</p>
       <section className="section_1">
           <article className="section__projects" id="proyectos">Proyectos</article>
             <div className="projects_div">

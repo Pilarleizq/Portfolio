@@ -114,7 +114,6 @@ a:link, a:visited, a:active {
 .section_1, .section_2 {
     font-family: 'Yeseva One', cursive;
     font-size:x-large;
-    width: 100%;
     height: 800px;
     padding: 20px;
     justify-content: center;
@@ -132,7 +131,7 @@ a:link, a:visited, a:active {
     margin-top: 300px;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 1500px;
     height: 300px;
     padding: 20px;
     justify-content: center;
@@ -153,7 +152,6 @@ a:link, a:visited, a:active {
 }
 
 .projects_div{
-    width: 100%;
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -313,6 +311,29 @@ a:link, a:visited, a:active {
     height: 80px;
 }
 
+
+
+}
+
+@media all and (min-width: 1024px) {
+
+    .projects_div{
+        justify-items:center;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 0px;
+         grid-auto-rows: minmax(100px, auto);
+     }
+     
+     .projects_div_each{
+         
+         width: 200px;
+         height: 200px;
+         margin: 10px;
+     }
+
+     .rrss_div {
+        margin-left:100px;
+     }
 
 
 }

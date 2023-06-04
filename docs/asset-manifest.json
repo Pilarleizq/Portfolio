@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.88d00541.css",
+    "main.js": "./static/js/main.578846ab.js",
+    "static/media/desarrollalobas.png": "./static/media/desarrollalobas.7b0c3826e411c3e54ea4.png",
+    "static/media/harrypotter.png": "./static/media/harrypotter.c3a0b484dbfb80d20b71.png",
+    "static/media/aikido.png": "./static/media/aikido.187fcd855a2a6d36f160.png",
+    "static/media/fotopng.png": "./static/media/fotopng.0366325aef02d67b25dd.png",
+    "static/media/cocktails.png": "./static/media/cocktails.9dfe0100c836b7e5a8b7.png",
+    "static/media/fop.png": "./static/media/fop.23a7b91cf3956df66092.png",
+    "static/media/cards.png": "./static/media/cards.2ccb77a8e751fa68df46.png",
+    "static/media/instagram.png": "./static/media/instagram.650c5954be88c41ea944.png",
+    "static/media/linkedin.png": "./static/media/linkedin.2ede7d12fd86fca69eb1.png",
+    "static/media/github.png": "./static/media/github.553c66159c5672f25df6.png",
+    "static/media/casa.png": "./static/media/casa.54e9384c0bbfe68a109a.png",
+    "static/media/numbergame.png": "./static/media/numbergame.f0f0bc624fd0d54de1fe.png",
+    "static/media/llamada-telefonica.png": "./static/media/llamada-telefonica.63409d74225289867f49.png",
+    "static/media/pleizq.png": "./static/media/pleizq.9543d06bd0b6cddd50a2.png",
+    "static/media/gmail.png": "./static/media/gmail.4c62c57aecd810375ba2.png",
+    "index.html": "./index.html",
+    "main.88d00541.css.map": "./static/css/main.88d00541.css.map",
+    "main.578846ab.js.map": "./static/js/main.578846ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d00541.css",
+    "static/js/main.578846ab.js"
+  ]
+}

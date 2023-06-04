@@ -35,7 +35,7 @@ function App() {
         <ul className="header__nav">
           <li className="header__li"><a href="./App.js#nombre">Sobre mí</a></li>
           <li className="header__li"><a href="./App.js#proyectos">Proyectos</a></li>
-          <li className="header__li"><a href="./app.js#cursos">Cursos</a></li>
+          <li className="header__li"><a href="./App.js#cursos">Cursos</a></li>
           <li className="header__li"><a href="./App.js#rrss">RRSS</a></li>
           <li className="header__li"><a href="./App.js#contacto">Contacto</a></li>
         </ul>

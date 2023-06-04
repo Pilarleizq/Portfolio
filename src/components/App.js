@@ -7,7 +7,7 @@ import '../styles/App.scss';
 
 // - Imágenes
 import logo from '../images/pleizq.png'
-import photo from '../images/foto.jpeg'
+import photo from '../images/fotopng.png'
 import house from '../images/casa.png'
 import desarrollalobas from '../images/desarrollalobas.png'
 import numbergame from '../images/numbergame.png'
@@ -29,7 +29,7 @@ function App() {
 
   return ( 
   <>
-<header className="page__header">
+<header className="page__header" id="header">
         <img className="page__logo" src={logo} alt="logo"/>
 
         <ul className="header__nav">
@@ -43,7 +43,19 @@ function App() {
 
     <main className="page__main">
       <h1 id="nombre" className="page__main__name">Pilar Leiva Izquierdo</h1>
-       <img id="foto" className="page__main__photo" src={photo} alt="foto personal"/>
+       <a href="https://www.linkedin.com/in/pilar-leiva-izquierdo/" target="blank">
+        <img id="foto" className="page__main__photo" src={photo} alt="foto personal"/>
+        </a>
+        <p className='texto'>
+          Mi relato profesional consta de pequeñas pinceladas de sectores diferente<br></br>
+          que quizá pueden relacionarse entre ellos. Estudié Marketing, y tras la pandemia<br></br>
+         empecé a trabajar en comercio, donde aprendí a trabajar de cara al público  y el funcionamiento <br></br>
+         de un equipo de trabajo, además de las tareas de cada departamento. <br></br>
+         <br></br>
+        Tomé la decisión de cambiar drásticamente de sector para buscar oportunidades diferentes <br></br>
+           y aprender sobre un sector que está en constante desarrollo. Empecé con mucho miedo  <br></br>
+           y actualmente aún me acompaña, pero a ese miedo se unen las ganas de aprender <br></br>
+         mucho más y experimentar lo que es nadar por este sector tan profundo.</p>
       <section className="section_1">
           <article className="section__projects" id="proyectos">Proyectos</article>
             <div className="projects_div">
@@ -96,9 +108,15 @@ function App() {
       <section className="section_2">
           <article className="section__rrss" id="rrss">Redes Sociales</article>
           <div className="rrss_div">
+            <a href="https://www.instagram.com/hookinhope/" target="blank">
             <img className="rrss_div_each" src={instagram} alt="logo-instagram"/>
+            </a>
+            <a href="https://www.linkedin.com/in/pilar-leiva-izquierdo/" target="blank">
             <img className="rrss_div_each" src={linkedin} alt="logo-linkedin"></img>
+            </a>
+            <a href="https://github.com/Pilarleizq" target="blank">
             <img className="rrss_div_each" src={github} alt="logo-github"></img>
+            </a>
           </div>
 
           <article className="section__contact" id="contacto">Contacto</article>
@@ -120,7 +138,9 @@ function App() {
       Pilar Leiva Izquierdo | Web developer
         &copy; 2023
       </small>
+      <a href='./App.js#header'>
       <img className="page__footer__img" src={house} alt="icono casa"/>
+      </a>
     </footer>
 </>
 );

@@ -94,15 +94,19 @@ a:link, a:visited, a:active {
         }
 
    &__photo{
-    height: 240px;
-    width: 250px;
-    border-radius: 50%;
-    box-shadow: 0px 10px 20px;
+    height: 310px;
+    width: 300px;
    }
 
 }
 
+.texto{
+    font-family: 'Playfair Display', serif;
+}
+
 .page__main__photo:hover {
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px;
     box-shadow: 0px 0px 15px 15px #c4b5aa;
     -webkit-box-shadow: 1px 1px 5px 6px #6d566c;
 }

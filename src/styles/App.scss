@@ -264,3 +264,55 @@ a:link, a:visited, a:active {
         box-shadow: 0px 5px 10px;
     }
 }
+
+// Mediaqueries
+
+@media all and (max-width: 1024px) {
+
+.header__li{
+    margin: 10px;
+}
+
+.texto{
+    border: 1px solid rgb(130, 100, 129);
+    box-shadow: 1px 1px 5px;
+    padding: 50px;
+    margin: 35px;
+}
+
+.section_1{
+    height: 700px;
+}
+
+.projects_div{
+   justify-items:first baseline;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.projects_div_each{
+    
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.rrss_div{
+    margin: 20px;
+}
+
+.rrss_div_each{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+.contact_icon{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+}
